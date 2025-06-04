@@ -9,6 +9,13 @@ class datos_medico():
         especialidad = str(input("ingrese su especialidad: "))
         especialidades.append(especialidad)
 
+horarios_especialidad = (
+    "Pediatría",
+    ["lunes", "miércoles", "viernes"],
+    "Psicologia",
+    ["Martes", "Miercoles","Jueves"],
+)
+
 class medico():
     def obtener_datos(dni, nombre, fecha_nac, hoy, edad):
         paciente.dni = dni

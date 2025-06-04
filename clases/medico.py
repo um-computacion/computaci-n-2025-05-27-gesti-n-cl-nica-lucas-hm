@@ -24,3 +24,4 @@ class medico():
         paciente.hoy = hoy
         paciente.edad = edad
         paciente.lista_pacientes
+        paciente.especialidad

@@ -9,5 +9,5 @@ class consulta ():
         
     datos_medico.nomb
     datos_medico.matr_lgj
-    datos_medico.especialidad
+    datos_medico.especialidades
     print("turno agendado")

@@ -1,9 +1,13 @@
 from paciente import paciente
 
 class datos_medico():
+    especialidades = []
     matr_lgj = int(input("ingrese su matricula: "))
     nomb = str(input("ingrese su nombre: "))
-    especialidad = str(input("ingrese su especialidad: "))
+    cantidad_especialidad = int(input("cuantas especialidades hay en la clinica? "))
+    for i in range(cantidad_especialidad):
+        especialidad = str(input("ingrese su especialidad: "))
+        especialidades.append(especialidad)
 
 class medico():
     def obtener_datos(dni, nombre, fecha_nac, hoy, edad):

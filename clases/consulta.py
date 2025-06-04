@@ -7,7 +7,7 @@ class consulta ():
     paciente.fecha_nac
     paciente.nombre
         
-    datos_medico.nomb
-    datos_medico.matr_lgj
+    datos_medico.nombre
+    datos_medico.matricula
     datos_medico.especialidades
     print("turno agendado")

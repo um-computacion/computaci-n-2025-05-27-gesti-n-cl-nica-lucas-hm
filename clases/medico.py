@@ -14,9 +14,16 @@ class datos_medico():
         matricula.append(matr_lgj)
         nombre.append(nomb)
 
-def agregar_especialidad(especialidad, dias):
-    global horarios_especialidad
-    horarios_especialidad += (especialidad, dias)
+horarios_especialidad = (
+    "Pediatría",
+    ["lunes", "miércoles", "viernes"],
+    "Psicologia",
+    ["Martes", "Miercoles", "Jueves"],
+    "Cardiología",  # Nueva especialidad
+    ["lunes", "jueves", "sábado"],  # Días de Cardiología
+    "Dermatología",  # Otra especialidad
+    ["martes", "viernes"],  # Días de Dermatología
+)
 
 class medico():
     def obtener_datos(dni, nombre, fecha_nac, hoy, edad):

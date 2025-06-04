@@ -9,8 +9,9 @@ class paciente():
         entrada = date(input("Ingresa tu fecha de nacimiento (YYYY-MM-DD): "))
         anio, mes, dia = map(int, entrada.split('-'))
         fecha_nac = date(anio, mes, dia)
+        especialidad =str(input("que especialidad desea consultar? "))
     
         # Calcular edad aproximada
         hoy = date(input("ingresa la fecha de pedido de turno: "))
         edad = hoy.year - fecha_nac.year - ((hoy.month, hoy.day) < (fecha_nac.month, fecha_nac.day))
-    lista_pacientes.append(dni, nombre, fecha_nac, edad, hoy)
+    lista_pacientes.append(dni, nombre, fecha_nac, edad, hoy, especialidad)

@@ -6,7 +6,7 @@ class test_2(unittest.TestCase):
     def test_medico(self, patch_input):
         b = self.assertEqual(medico.datos_medico.matr_lgj, "64982")
         c = self.assertEqual(medico.datos_medico.nomb, "Juan Carlos Peralta")
-        d = self.assertEqual(medico.datos_medico.especialidad, "Cariologo")
+        d = self.assertEqual(medico.datos_medico.especialidad, "Cardiologo")
 
 if __name__ == "__main__":
     unittest.main()

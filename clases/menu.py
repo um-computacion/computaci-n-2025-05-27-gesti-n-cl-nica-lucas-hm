@@ -5,7 +5,8 @@ from paciente import paciente
 from reagendar import consultas
 from recetas import medicamento
 
-def mostrar_menu():
+class menu: 
+    def mostrar_menu():
     print("\n--- Menú Principal ---")
     print("1. Consulta")
     print("2. Historia Clínica")
@@ -15,10 +16,10 @@ def mostrar_menu():
     print("6. Recetas")
     print("7. Salir")
 
-def main():
-    while True:
-        mostrar_menu()
-        opcion = input("Seleccione una opción: ")
+    def main():
+        while True:
+            mostrar_menu()
+            opcion = input("Seleccione una opción: ")
 
         if opcion == "1":
             consulta()  # Llama a la función correspondiente en consulta.py

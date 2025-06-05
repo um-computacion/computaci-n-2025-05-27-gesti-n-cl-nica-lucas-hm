@@ -1,5 +1,6 @@
 from medico import datos_medico
 from paciente import paciente
+from menu import menu
 
 class Receta:
     def __init__(self, id_paciente, medicamentos_indicados):
@@ -45,3 +46,8 @@ class Receta:
         receta += f"\nFirma: _________________________\n{medico['nombre']}"
         
         return receta
+regresar = int(input("Deseas volver al menu? (Y/n) "))
+if regresar = y:
+    menu.menu
+else:
+    break

@@ -1,6 +1,8 @@
 from medico import datos_medico
 from paciente import paciente
 from datetime import date
+from menu import menu
+
 class consultas ():
     def agendar(reagenda):
         reagenda = date(input("ingrese fecha del nuevo turno: "))
@@ -12,3 +14,8 @@ class consultas ():
         datos_medico.matricula
         datos_medico.especialidades
     print("turno reagendado")
+regresar = int(input("Deseas volver al menu? (Y/n) "))
+if regresar = y:
+    menu.menu
+else:
+    break

@@ -1,6 +1,7 @@
 from medico import datos_medico
 from paciente import paciente
 from datetime import date
+from menu import menu
 class consulta ():
     turno = date(input("ingrese fecha de turno: "))
     paciente.dni
@@ -11,3 +12,8 @@ class consulta ():
     datos_medico.matricula
     datos_medico.especialidades
     print("turno agendado")
+regresar = int(input("Deseas volver al menu? (Y/n) "))
+if regresar = y:
+    menu.menu
+else:
+    break

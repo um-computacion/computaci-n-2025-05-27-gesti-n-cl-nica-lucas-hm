@@ -1,5 +1,5 @@
 from paciente import paciente
-
+from menu import menu
 class datos_medico():
     especialidades = []
     matricula = []
@@ -34,3 +34,8 @@ class medico():
         paciente.edad = edad
         paciente.lista_pacientes
         paciente.especialidad
+regresar = int(input("Deseas volver al menu? (Y/n) "))
+if regresar = y:
+    menu.menu
+else:
+    break

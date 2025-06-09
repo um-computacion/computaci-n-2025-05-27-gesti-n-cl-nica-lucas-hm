@@ -341,6 +341,15 @@ El sistema debe incluir pruebas unitarias utilizando el módulo `unittest`, que 
 - ❌ Error si alguno no existe.
 - ❌ Error si no hay medicamentos listados.
 
+#### Especificaciones de uso
+
+Instrucción 1: Ejecutar desde archivo menu
+Instrucción 2a: Agregar medicos
+Instrucción 2b: Agregar especialidades y horarios
+Instrucción 3: Agregar pacientes a lista
+Instrucción 4: Agendar turno con datos de medico y paciente
+instrucción 5: Si desea reagendar, el usuario paciente debera pedir otro dia
+
 #### 📘 Historia Clínica
 
 - ✅ Confirmar que los turnos y recetas se guardan correctamente en la historia clínica del paciente.

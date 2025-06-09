@@ -14,7 +14,7 @@ class consultas ():
         datos_medico.matricula
         datos_medico.especialidades
     print("turno reagendado")
-regresar = int(input("Deseas volver al menu? (Y/n) "))
+regresar = str(input("Deseas volver al menu? (Y/n) "))
 if regresar = y:
     menu.menu
 else:

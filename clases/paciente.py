@@ -15,7 +15,7 @@ class paciente():
         hoy = date(input("ingresa la fecha de pedido de turno: "))
         edad = hoy.year - fecha_nac.year - ((hoy.month, hoy.day) < (fecha_nac.month, fecha_nac.day))
     lista_pacientes.append(dni, nombre, fecha_nac, edad, hoy, especialidad)
-regresar = int(input("Deseas volver al menu? (Y/n) "))
+regresar = str(input("Deseas volver al menu? (Y/n) "))
 if regresar = y:
     menu.menu
 else:

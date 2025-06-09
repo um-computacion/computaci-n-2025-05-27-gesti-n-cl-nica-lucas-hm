@@ -46,7 +46,7 @@ class Receta:
         receta += f"\nFirma: _________________________\n{medico['nombre']}"
         
         return receta
-regresar = int(input("Deseas volver al menu? (Y/n) "))
+regresar = str(input("Deseas volver al menu? (Y/n) "))
 if regresar = y:
     menu.menu
 else:

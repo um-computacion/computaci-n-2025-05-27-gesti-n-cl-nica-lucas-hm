@@ -6,7 +6,7 @@ class historia_clinica:
         historial = paciente.lista_pacientes
         Edad = paciente.edad
         print("el historial de la persona es: ", historial," y la edad es: ", Edad)
-regresar = int(input("Deseas volver al menu? (Y/n) "))
+regresar = str(input("Deseas volver al menu? (Y/n) "))
 if regresar = y:
     menu.menu
 else:

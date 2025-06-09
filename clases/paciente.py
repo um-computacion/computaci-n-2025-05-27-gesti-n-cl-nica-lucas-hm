@@ -4,7 +4,7 @@ class paciente():
     lista_pacientes = []
     n = int(input("cuantos pacientes vas a tener?"))
     for i in range(n):
-        dni = str(input("ingrese su DNI: "))
+        dni = int(input("ingrese su DNI: "))
         nombre = str(input("ingrese su nombre: "))
         entrada = date(input("Ingresa tu fecha de nacimiento (YYYY-MM-DD): "))
         anio, mes, dia = map(int, entrada.split('-'))

@@ -34,7 +34,7 @@ class medico():
         paciente.edad = edad
         paciente.lista_pacientes
         paciente.especialidad
-regresar = int(input("Deseas volver al menu? (Y/n) "))
+regresar = str(input("Deseas volver al menu? (Y/n) "))
 if regresar = y:
     menu.menu
 else:

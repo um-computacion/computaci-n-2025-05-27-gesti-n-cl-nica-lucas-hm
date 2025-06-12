@@ -343,12 +343,13 @@ El sistema debe incluir pruebas unitarias utilizando el módulo `unittest`, que 
 
 #### Especificaciones de uso
 
-Instrucción 1: Ejecutar desde archivo menu
-Instrucción 2a: Agregar medicos
-Instrucción 2b: Agregar especialidades y horarios
-Instrucción 3: Agregar pacientes a lista
+Instrucción 1: Ejecutar desde archivo cli en carpeta cli
+Instrucción 2: elegir
+Instrucción 3: En base a la opcion llenar datos
 Instrucción 4: Agendar turno con datos de medico y paciente
 instrucción 5: Si desea reagendar, el usuario paciente debera pedir otro dia
+instruccion 6: El archivo de medicos contiene datos para ver a cada medico y especialidad
+instruccion 7: El archivo de pacientes contiene datos para ver a cada paciente y sus datos
 
 #### 📘 Historia Clínica
 

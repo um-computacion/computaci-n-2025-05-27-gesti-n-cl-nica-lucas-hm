@@ -1,5 +1,5 @@
 from datetime import date
-from menu import menu
+from cli import cli
 class paciente():
     lista_pacientes = []
     n = int(input("cuantos pacientes vas a tener?"))
@@ -16,7 +16,7 @@ class paciente():
         edad = hoy.year - fecha_nac.year - ((hoy.month, hoy.day) < (fecha_nac.month, fecha_nac.day))
     lista_pacientes.append(dni, nombre, fecha_nac, edad, hoy, especialidad)
 regresar = str(input("Deseas volver al menu? (Y/n) "))
-if regresar = y:
-    menu.menu
+if regresar == "y":
+    cli()
 else:
-    break
+    exit

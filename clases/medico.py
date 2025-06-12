@@ -1,5 +1,5 @@
-from paciente import Paciente
-from menu import Menu
+from paciente import paciente
+from cli import cli
 
 class PacienteNoEncontradoException(Exception):
     """Excepción lanzada cuando no se encuentra un paciente"""
@@ -17,7 +17,7 @@ class RecetaInvalidaException(Exception):
     """Excepción lanzada cuando una receta es inválida"""
     pass
 
-class DatosMedico:
+class DatosMedico():
     especialidades = []
     matricula = []
     nombre = []
@@ -61,7 +61,7 @@ class Medico:
             if not dni or not nombre:
                 raise PacienteNoEncontradoException("Datos del paciente incompletos")
                 
-            paciente = Paciente()
+            paciente = paciente()
             paciente.dni = dni
             paciente.nombre = nombre
             paciente.fecha_nac = fecha_nac
@@ -84,7 +84,7 @@ class Medico:
 try:
     regresar = input("¿Deseas volver al menú? (Y/n) ").lower()
     if regresar == 'y':
-        Menu.mostrar()
+        cli()
     else:
         print("Saliendo del sistema...")
 except Exception as e:

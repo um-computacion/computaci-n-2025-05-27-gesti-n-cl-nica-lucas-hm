@@ -1,6 +1,6 @@
-from medico import Datos_medico
+from medico import DatosMedico
 from paciente import paciente
-from clases.cli import cli
+from cli.cli import cli
 
 class Receta:
     def __init__(self, id_paciente, medicamentos_indicados):
@@ -10,9 +10,9 @@ class Receta:
     def generar_receta(self):
         # Obtener datos del médico
         medico = {
-            "nombre": Datos_medico.nombre,
-            "matricula": Datos_medico.matricula,
-            "especialidad": Datos_medico.especialidades[0]  # Primera especialidad
+            "nombre": DatosMedico.nombre,
+            "matricula": DatosMedico.matricula,
+            "especialidad": DatosMedico.especialidades[0]  # Primera especialidad
         }
         
         # Obtener datos del paciente
@@ -47,7 +47,7 @@ class Receta:
         
         return receta
 regresar = str(input("Deseas volver al menu? (Y/n) "))
-if regresar = y:
+if regresar == "y":
     cli()
 else:
     exit

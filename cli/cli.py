@@ -10,3 +10,5 @@ class cli():
         Menu.mostrar_menu
     def elegir_opcion(self):
         Menu.inicio
+if __name__ == "__main__":
+    cli

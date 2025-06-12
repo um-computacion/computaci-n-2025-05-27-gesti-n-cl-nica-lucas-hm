@@ -1,6 +1,6 @@
 from datetime import date
 from cli import cli
-class paciente():
+class paciente:
     lista_pacientes = []
     n = int(input("cuantos pacientes vas a tener?"))
     for i in range(n):

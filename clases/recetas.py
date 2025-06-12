@@ -1,4 +1,4 @@
-from medico import datos_medico
+from medico import Datos_medico
 from paciente import paciente
 from clases.cli import cli
 
@@ -10,9 +10,9 @@ class Receta:
     def generar_receta(self):
         # Obtener datos del médico
         medico = {
-            "nombre": datos_medico.nombre,
-            "matricula": datos_medico.matricula,
-            "especialidad": datos_medico.especialidades[0]  # Primera especialidad
+            "nombre": Datos_medico.nombre,
+            "matricula": Datos_medico.matricula,
+            "especialidad": Datos_medico.especialidades[0]  # Primera especialidad
         }
         
         # Obtener datos del paciente

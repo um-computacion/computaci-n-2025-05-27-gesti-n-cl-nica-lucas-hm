@@ -1,11 +1,12 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/y_fEcNZn)
 # 🏥 Sistema de Gestión para una Clínica
 
 ## 👤 Información del Alumno
 
 ### 📋 Datos Personales
-- **Nombre y Apellido**: [Completar con nombre y apellido]
+- **Nombre y Apellido**: Lucas Moran
 - **Ciclo Lectivo**: 2025
-- **Carrera**: [Completar con nombre de la carrera]
+- **Carrera**: Ingenieria informatica
 
 ## ⏰ Información Importante sobre la Entrega
 
@@ -339,6 +340,16 @@ El sistema debe incluir pruebas unitarias utilizando el módulo `unittest`, que 
 - ✅ Emisión de recetas para un paciente válido por un médico válido.
 - ❌ Error si alguno no existe.
 - ❌ Error si no hay medicamentos listados.
+
+#### Especificaciones de uso
+
+Instrucción 1: Ejecutar desde archivo cli en carpeta cli
+Instrucción 2: elegir
+Instrucción 3: En base a la opcion llenar datos
+Instrucción 4: Agendar turno con datos de medico y paciente
+instrucción 5: Si desea reagendar, el usuario paciente debera pedir otro dia
+instruccion 6: El archivo de medicos contiene datos para ver a cada medico y especialidad
+instruccion 7: El archivo de pacientes contiene datos para ver a cada paciente y sus datos
 
 #### 📘 Historia Clínica
 

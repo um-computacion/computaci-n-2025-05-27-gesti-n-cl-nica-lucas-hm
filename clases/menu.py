@@ -4,6 +4,7 @@ from medico import DatosMedico
 from paciente import paciente
 from reagendar import consultas
 from recetas import Receta
+from cli import cli
 
 def crear_receta():
     try:
@@ -62,4 +63,4 @@ class Menu:  # Las clases en Python por convención usan CamelCase
                 print("Opción no válida. Intente nuevamente.")
 
 if __name__ == "__main__":
-    Menu.inicio()
+    cli()

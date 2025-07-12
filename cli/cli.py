@@ -1,5 +1,6 @@
 import sys
 import os
+from cli import cli
 
 # Agregar el directorio padre al path para importar los módulos
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -17,5 +18,5 @@ class CLI:
         Menu.inicio()
 
 if __name__ == "__main__":
-    cli_instance = CLI()
+    cli_instance = cli()
     cli_instance.elegir_opcion()
